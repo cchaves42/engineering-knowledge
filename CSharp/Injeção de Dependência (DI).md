@@ -1,8 +1,4 @@
 
-```
-problema → consequência → solução → mecanismo → resultado
-```
-
 ```csharp
 public class PedidoService 
 {
@@ -47,6 +43,6 @@ public class EmailService : IEmailService
 }
 ```
 
-**Resumo**: Injeção de Dependência é uma técnica/padrão em que uma classe recebe externamente as dependências de que precisa, em vez de criá-las diretamente. 
+**Resumo**: Injeção de Dependência é uma técnica em que uma classe recebe externamente as dependências de que precisa, em vez de criá-las diretamente. 
 
 Classe que cria diretamente uma dependência → gera acoplamento → queremos depender de uma abstração → recebemos a implementação externamente → a dependência é injetada.
