@@ -1,0 +1,16 @@
+# Ignorar arquivos de estado da interface (geram conflitos)
+.obsidian/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-vault-name.json # Se usar nomes específicos
+
+# Ignorar dados de plugins que mudam por dispositivo
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+# Ignorar pastas de plugins inteiras (opcional, se não quiser sincronizar configs de plugins)
+.obsidian/plugins/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db   
